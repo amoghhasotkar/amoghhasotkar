@@ -15,6 +15,7 @@ I've worked on data pipelines since 2021, starting with a 10TB move from a legac
 ### 🚀 Lately
 
 - 🛡️ A validation layer in Snowflake that checks each batch before it loads, sets aside bad rows with the reason and the run that caused them, and lets clean rows through.
+- 🤖 Alerts for failed production jobs that restart the job automatically and email the on-call team an AI-written explanation of what went wrong and a suggested fix.
 - 📦 File delivery pipelines that pull from SFTP, APIs, SharePoint, and S3 and log every transfer so it can be audited.
 - ✂️ Splitting an oversized AWS Glue job into smaller pieces so only the steps that are needed actually run.
 
